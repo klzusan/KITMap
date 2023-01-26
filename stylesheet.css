@@ -1,0 +1,49 @@
+header {
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+    z-index: 10;
+    pointer-events: none;
+}
+
+#map {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    pointer-events: auto;
+}
+
+#dev_initPlace{
+    position: fixed;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1000;
+    font-size: medium;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#credit{
+    position: fixed;
+    right: 10px;
+    bottom: 0px;
+    z-index: 900;
+    font-size: large;
+}
+
+#credit p{
+    background-color: whitesmoke;
+    padding: 0;
+}
+
+#searchContainer{
+    position: fixed;
+    left: 50%;
+    top: 50px;
+    transform: translateX(-50%);
+}

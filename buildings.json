@@ -1,0 +1,1238 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    123.375,
+                    -122.6
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/1_2gokan.png'style='width: 691px;'><p>1号館</p>",
+                "title": "1号館",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    119.4062,
+                    -126.3125
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/1gokan1f.png'style='width: 300px;'><p>0111講義室は<br>1号館1階です</p>",
+                "title": "0111",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    119.625,
+                    -122.5312
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/1gokan1f.png'style='width: 300px;'><p>0112講義室は<br>1号館1階です</p>",
+                "title": "0112",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    119.4062,
+                    -126.3125
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/1gokan2f.png'style='width: 300px;'><p>0121講義室は<br>1号館2階です</p>",
+                "title": "0121",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    119.625,
+                    -122.5312
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/1gokan2f.png'style='width: 300px;'><p>0122講義室は<br>1号館2階です</p>",
+                "title": "0122",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    115.3281,
+                    -112.0781
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/1_2gokan.png'style='width: 691px;'><p>2号館[北棟]</p>",
+                "title": "2号館[北棟]",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    110.625,
+                    -122.875
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/1_2gokan.png'style='width: 691px;'><p>2号館[南棟]</p>",
+                "title": "2号館[南棟]",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    109.625,
+                    -122.1093
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/2gokanminami1f.png' style='width: 500px;'><p>0211講義室は<br>2号館南棟1階です</p>",
+                "title": "0211",
+                "description": "",
+                "image": "marker.png"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.5,
+                    -124.8125
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/2gokanminami1f.png' style='width: 500px;'><p>0212講義室は<br>2号館南棟1階です</p>",
+                "title": "0212",
+                "description": "",
+                "image": "marker.png"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.5625,
+                    -118.0312
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/2gokanminami2f.png' style='width: 500px;'><p>0222講義室は<br>2号館南棟2階です</p>",
+                "title": "0222",
+                "description": "",
+                "image": "marker.png"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.5312,
+                    -120.5625
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/2gokanminami2f.png' style='width: 500px;'><p>0223講義室は<br>2号館南棟2階です</p>",
+                "title": "0223",
+                "description": "",
+                "image": "marker.png"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.1875,
+                    -149.5
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/3gokan.png'style='width: 500px;'><p>3号館</p>",
+                "title": "3号館",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.4062,
+                    -150.5625
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/3gokan1f.png' style='width: 400px;'><p>0311講義室は<br>3号館1階です</p>",
+                "title": "0311",
+                "description": "",
+                "image": "marker.png"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.0312,
+                    -157.9375
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/3gokan1f.png' style='width: 400px;'><p>0312講義室は<br>3号館1階です</p>",
+                "title": "0312",
+                "description": "",
+                "image": "marker.png"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    122.8125,
+                    -145.2187
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/3gokan1f.png' style='width: 400px;'><p>0313講義室は<br>3号館1階です</p>",
+                "title": "0313",
+                "description": "",
+                "image": "marker.png"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.8125,
+                    -150.875
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/3gokan2f.png' style='width: 400px;'><p>0321講義室は<br>3号館2階です</p>",
+                "title": "0321",
+                "description": "",
+                "image": "marker.png"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    116.2187,
+                    -151.9375
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/3gokan2f.png' style='width: 400px;'><p>0322講義室は<br>3号館2階です</p>",
+                "title": "0322",
+                "description": "",
+                "image": "marker.png"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    116.2187,
+                    -149.2187
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/3gokan2f.png' style='width: 400px;'><p>0323講義室は<br>3号館2階です</p>",
+                "title": "0323",
+                "description": "",
+                "image": "marker.png"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.3125,
+                    -150.4375
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/3gokan3f.png' style='width: 400px;'><p>0331講義室は<br>3号館3階です</p>",
+                "title": "0331",
+                "description": "",
+                "image": "marker.png"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.3437,
+                    -156.5156
+                ]
+            },
+            "properties": {
+                "popupContent": "4号館",
+                "title": "4号館",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.1718,
+                    -143.5937
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/5gokan.png' style='width: 500px;'><p>5号館</p>",
+                "title": "5号館",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.3437,
+                    -145.0937
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/5gokan2f.png' style='width: 500px;'><p>5IS講義室は<br>5号館2階です</p>",
+                "title": "5IS",
+                "description": "",
+                "image": "marker.png"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    94,
+                    -155.2812
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/6gokan.png'style='width: 600px;'><p>6号館</p>",
+                "title": "6号館",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    92.9062,
+                    -157.9687
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/6gokan1f.png' style='width: 600px;'><p>0611講義室は<br>6号館1階です</p>",
+                "title": "0611",
+                "description": "",
+                "image": "marker.png"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    95.870,
+                    -157.9687
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/6gokan1f.png' style='width: 600px;'><p>0612講義室は<br>6号館1階です</p>",
+                "title": "0612",
+                "description": "",
+                "image": "marker.png"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    95.6562,
+                    -143.625
+                ]
+            },
+            "properties": {
+                "popupContent": "7号館",
+                "title": "7号館",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    89.5156,
+                    -148.2968
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/8gokan.png'style='width: 600px;'><p>8号館</p>",
+                "title": "8号館",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    87.9687,
+                    -153.5937
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/8gokan1f.png' style='width: 500px;'><p>0811講義室は<br>8号館1階です</p>",
+                "title": "0811",
+                "description": "",
+                "image": "marker.png"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    90.5,
+                    -153.5937
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/8gokan1f.png' style='width: 500px;'><p>0812講義室は<br>8号館1階です</p>",
+                "title": "0812",
+                "description": "",
+                "image": "marker.png"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    87.9687,
+                    -156.3437
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/8gokan2f.png' style='width: 500px;'><p>0821講義室は<br>8号館2階です</p>",
+                "title": "0821",
+                "description": "",
+                "image": "marker.png"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    87.9687,
+                    -153.5937
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/8gokan2f.png' style='width: 500px;'><p>0822講義室は<br>8号館2階です</p>",
+                "title": "0822",
+                "description": "",
+                "image": "marker.png"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    97.0625,
+                    -150.5625
+                ]
+            },
+            "properties": {
+                "popupContent": "9号館",
+                "title": "9号館",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    86.625,
+                    -134.4687
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/10gokan.png'style='width: 600px;'><p>10号館</p>",
+                "title": "10号館",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    89.8125,
+                    -136.7812
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/10gokan4f.png'style='width: 350px;'><p>104講義室は<br>10号館4階です</p>",
+                "title": "104",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.8437,
+                    -126.7031
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/11gokan.png'style='width: 500px;'><p>11号館</p>",
+                "title": "11号館",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    89.1093,
+                    -126.8281
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/11gokan3f.png'style='width: 350px;'><p>1131講義室は<br>11号館3階です</p>",
+                "title": "1131",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    89.1093,
+                    -128.4531
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/11gokan3f.png'style='width: 350px;'><p>1132講義室は<br>11号館3階です</p>",
+                "title": "1132",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    89.1093,
+                    -126.8281
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/11gokan4f.png'style='width: 350px;'><p>1141講義室は<br>11号館4階です</p>",
+                "title": "1141",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    89.1093,
+                    -128.4531
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/11gokan4f.png'style='width: 350px;'><p>1142講義室は<br>11号館4階です</p>",
+                "title": "1142",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    85.2968,
+                    -121.7968
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/12gokan.png'style='width: 500px;'><p>12号館</p>",
+                "title": "12号館",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    89.2031,
+                    -121.7968
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/12gokan1f.png'style='width: 500px;'><p>1211講義室は<br>12号館1階です</p>",
+                "title": "1211",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    96.8281,
+                    -125.0937
+                ]
+            },
+            "properties": {
+                "popupContent": "13号館",
+                "title": "13号館",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    79.5937,
+                    -114.25
+                ]
+            },
+            "properties": {
+                "popupContent": "14号館",
+                "title": "14号館",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    79.5625,
+                    -108.3437
+                ]
+            },
+            "properties": {
+                "popupContent": "15号館",
+                "title": "15号館",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    91.6562,
+                    -108.75
+                ]
+            },
+            "properties": {
+                "popupContent": "16号館",
+                "title": "16号館",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    71.0625,
+                    -117.5937
+                ]
+            },
+            "properties": {
+                "popupContent": "17号館[北棟]",
+                "title": "17号館[北棟]",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    70.2343,
+                    -125.5312
+                ]
+            },
+            "properties": {
+                "popupContent": "17号館[南棟]",
+                "title": "17号館[南棟]",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    70.8906,
+                    -136.0625
+                ]
+            },
+            "properties": {
+                "popupContent": "18号館",
+                "title": "18号館",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    70.0781,
+                    -141.1875
+                ]
+            },
+            "properties": {
+                "popupContent": "19号館",
+                "title": "19号館",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.6562,
+                    -110.875
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/hokubukougishitsutou.png' style='width: 500px;'><p>北部講義室棟</p>",
+                "title": "北講義室棟",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.7187,
+                    -111.5937
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/hokubukougishitsutou1f.png' style='width: 500px;'><p>NP11は<br>北部講義室棟1階です</p>",
+                "title": "NP11",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.6562,
+                    -110.875
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/hokubukougishitsutou.png' style='width: 500px;'><p>北部講義室棟</p>",
+                "title": "北講義室棟",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    102.6562,
+                    -111.5937
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/hokubukougishitsutou1f.png' style='width: 500px;'><p>NP12は<br>北部講義室棟1階です</p>",
+                "title": "NP12",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.6562,
+                    -110.875
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/hokubukougishitsutou2f.png' style='width: 500px;'><p>NP21は<br>北部講義室棟2階です</p>",
+                "title": "NP21",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    69.7812,
+                    -130.6875
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/seibukougishitsu.png'style='width: 500px;'><p>西部講義室棟</p>",
+                "title": "西部講義室棟",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    70.8437,
+                    -131.7187
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/seibukougishitsu1f.png'style='width: 500px;'><p>WP11講義室は<br>西部講義室棟1階です</p>",
+                "title": "WP11",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    68.625,
+                    -131.7187
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/seibukougishitsu1f.png'style='width: 500px;'><p>WP12講義室は<br>西部講義室棟1階です</p>",
+                "title": "WP12",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    70.8437,
+                    -131.7187
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/seibukougishitsu2f.png'style='width: 500px;'><p>WP21講義室は<br>西部講義室棟2階です</p>",
+                "title": "WP21",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    68.625,
+                    -131.7187
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/seibukougishitsu2f.png'style='width: 500px;'><p>WP22講義室は<br>西部講義室棟2階です</p>",
+                "title": "WP22",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    70.7656,
+                    -148.0156
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/nishijikkento.png'style='width: 600px;'><p>西実験棟</p>",
+                "title": "西実験棟",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    68.9062,
+                    -151.8125
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/nishijikkento2f.png'style='width: 600px;'><p>WL21講義室は<br>西実験棟2階です</p>",
+                "title": "WL21",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    68.9062,
+                    -150.0937
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/nishijikkento2f.png'style='width: 600px;'><p>WL22講義室は<br>西実験棟2階です</p>",
+                "title": "WL22",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    71.5312,
+                    -151.8125
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/nishijikkento2f.png'style='width: 600px;'><p>WL23講義室は<br>西実験棟2階です</p>",
+                "title": "WL23",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    71.5,
+                    -150.0937
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/nishijikkento2f.png'style='width: 600px;'><p>WL24講義室は<br>西実験棟2階です</p>",
+                "title": "WL24",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.625,
+                    -149.4687
+                ]
+            },
+            "properties": {
+                "popupContent": "情報科学センター",
+                "title": "情報科学センター",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    137.8437,
+                    -120.0781
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/higashi3gokan.png' style='width: 600px;'><p>東3号館</p>",
+                "title": "東3号館",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    136.4687,
+                    -120.4687
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/higashi3gokan1f.png'style='width: 500px;'><p>K101講義室は<br>東3号館1階です</p>",
+                "title": "K101",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    136.4687,
+                    -120.4687
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/higashi3gokan2f.png'style='width: 600px;'><p>K201講義室は<br>東3号館2階です</p>",
+                "title": "K201",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.3125,
+                    -122.5312
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/higashi3gokan2f.png'style='width: 600px;'><p>K202講義室は<br>東3号館2階です</p>",
+                "title": "K202",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.3125,
+                    -120.5781
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/higashi3gokan2f.png'style='width: 600px;'><p>K203講義室は<br>東3号館2階です</p>",
+                "title": "K203",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    136.4687,
+                    -120.4687
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/higashi3gokan3f.png'style='width: 600px;'><p>K301講義室は<br>東3号館3階です</p>",
+                "title": "K301",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.3125,
+                    -122.5312
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/higashi3gokan3f.png'style='width: 600px;'><p>K302講義室は<br>東3号館3階です</p>",
+                "title": "K302",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.3125,
+                    -120.5781
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/higashi3gokan3f.png'style='width: 600px;'><p>K303講義室は<br>東3号館3階です</p>",
+                "title": "K303",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.1718,
+                    -120.0781
+                ]
+            },
+            "properties": {
+                "popupContent": "東4号館",
+                "title": "東4号館",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.125,
+                    -133.8593
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/higashi1gokan.png' style='width: 450px;'><p>東1号館</p>",
+                "title": "東1号館",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.4375,
+                    -134.9375
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/higashi1gokan1f.png'style='width: 600px;'><p>E111講義室は<br>東1号館1階です</p>",
+                "title": "E111",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.4375,
+                    -134.9375
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/higashi1gokan2f.png'style='width: 600px;'><p>E121講義室は<br>東1号館2階です</p>",
+                "title": "E121",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    163.8125,
+                    -133.8593
+                ]
+            },
+            "properties": {
+                "popupContent": "東2号館",
+                "title": "東2号館",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    170.6150,
+                    -133.0788
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/toubukougishitsuto.png' style='width: 500px;'><p>東部講義室棟(EP)</p>",
+                "title": "東部講義室棟",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    171.0156,
+                    -133.8906
+                ]
+            },
+            "properties": {
+                "popupContent": "<img src='leaflet/images/toubukougishitsuto2f.png'style='width: 500px;'><p>EP21講義室は<br>東部講義室棟2階です</p>",
+                "title": "EP21",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    179.5312,
+                    -123.9062
+                ]
+            },
+            "properties": {
+                "popupContent": "体育館",
+                "title": "体育館",
+                "description": ""
+            }
+        }
+    ]
+}

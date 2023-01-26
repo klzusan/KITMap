@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="user-scalable=no">
+  <title>KIT Map</title>
+  <script src="leaflet/jquery-3.6.3.min.js"></script>
+  <link rel="stylesheet" href="leaflet/geojsonautocomplete.css">
+  <script src="leaflet/geojsonautocomplete.js"></script>
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="leaflet/leaflet.css">
+  <script src="leaflet/leaflet-src.js"></script>
+</head>
+
+<body>
+  <div id="contents">
+    <header>
+      <h1>KIT Map</h1>
+    </header>
+
+    <div id="map"></div>
+
+    <div id="searchContainer"></div>
+
+    <!--
+    <div id="dev_button">
+      <button id="dev_initPlace" type="button" onclick="dev_initPlace()">dev<br><br>initPlace</button>
+    </div>
+    -->
+    
+    <div id="credit">
+      <footer>
+        <p>powered by <a href="https://leafletjs.com/">leaflet</a> | KIT Map from <a
+            href="https://twitter.com/klzusan">@klzusan (Twitter)</a></p>
+      </footer>
+    </div>
+
+    <script>
+      L.Icon.Default.prototype.options.popupAnchor = [0, -82];
+      L.Icon.Default.prototype.options.iconUrl = "marker-icon-2x.png";
+      L.Icon.Default.prototype.options.iconAnchor = [25, 82];
+      L.Icon.Default.prototype.options.iconSize = [50, 82];
+      L.Icon.Default.prototype.options.shadowSize = [82,82];
+      
+      
+      var map = L.map('map', { zoomControl: false, crs: L.CRS.Simple });
+      map.setView(L.latLng(-120.75, 256/2), 3);
+      var kitBounds = [L.latLng(0, 0), L.latLng(-256, 256)];
+      map.setMaxBounds(kitBounds);
+      var tileLayer = L.tileLayer('{z}_{x}_{y}.png', {
+        maxNativeZoom: 0,
+        maxZoom: 6,
+        minNativeZoom: 0,
+        minZoom: 3
+      });
+      tileLayer.addTo(map);
+
+      //GeoJSON
+      //In .json file, (x, y), not (y, x)
+      var options = {
+        geojsonServiceAddress: "buildings.json",
+        placeholderMessage: "棟名や講義室を検索",
+        notFoundMessage: "に一致する講義室はありません。",
+        notFoundHint: "英数字は半角で入力してください。",
+        pointGeometryZoomLevel: 5,
+      };
+      $("#searchContainer").GeoJsonAutocomplete(options);
+      ///GeoJSON
+
+      map.on('click', dev_mapClick);
+
+      function dev_mapClick(e) {
+        var lat = e.latlng.lat;
+        var lng = e.latlng.lng;
+
+        console.log("lat: " + lat + ", lng: " + lng);
+      }
+
+      function dev_initPlace() {
+        map.setView(L.latLng(-120.75, 256/2), 3);
+      }
+    </script>
+
+  </div>
+</body>
+
+</html>
