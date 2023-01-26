@@ -41,9 +41,20 @@ header {
     padding: 0;
 }
 
-#searchContainer{
-    position: fixed;
-    left: 50%;
-    top: 50px;
-    transform: translateX(-50%);
+@media screen and (min-width:600px) {
+    #searchContainer{
+        position: fixed;
+        left: 50px;
+        top: 50px;
+        
+    }
+}
+
+@media screen and (max-width:1025px) {
+    #searchContainer{
+        position: fixed;
+        left: 50%;
+        top: 50px;
+        transform: translateX(-50%);
+    }
 }
