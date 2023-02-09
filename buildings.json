@@ -1233,6 +1233,21 @@
                 "title": "体育館",
                 "description": ""
             }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    80.5328,
+                    -142.5620
+                ]
+            },
+            "properties": {
+                "popupContent": "<iframe src='https://west2-univ.jp/sp/menu.php?t=650711#menu' style='width:800px; height:800px;'>a</iframe><p>オルタス</p>",
+                "title": "オルタス",
+                "description": ""
+            }
         }
     ]
 }
