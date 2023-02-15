@@ -8,6 +8,7 @@
   <script src="leaflet/jquery-3.6.3.min.js"></script>
   <link rel="stylesheet" href="leaflet/geojsonautocomplete.css">
   <script src="leaflet/geojsonautocomplete.js"></script>
+  <link rel="stylesheet" href="resetcss.css">
   <link rel="stylesheet" href="stylesheet.css">
   <link rel="stylesheet" href="leaflet/leaflet.css">
   <script src="leaflet/leaflet-src.js"></script>
@@ -45,16 +46,16 @@
       
       
       var map = L.map('map', { zoomControl: false, crs: L.CRS.Simple });
-      map.setView(L.latLng(-120.75, 256/2), 3);
-      var kitBounds = [L.latLng(0, 0), L.latLng(-256, 256)];
+      var kitBounds = [L.latLng(0, 0), L.latLng(-4096, 4096)];
       map.setMaxBounds(kitBounds);
-      var tileLayer = L.tileLayer('{z}_{x}_{y}.png', {
+      var tileLayer = L.tileLayer('tiles/{z}_{x}_{y}.png', {
         maxNativeZoom: 0,
-        maxZoom: 6,
+        maxZoom: 3,
         minNativeZoom: 0,
-        minZoom: 3
+        minZoom: -1,
       });
       tileLayer.addTo(map);
+      map.setView(L.latLng(-4096/2, 4096/2), -1);
 
       //GeoJSON
       //In .json file, (x, y), not (y, x)
@@ -63,7 +64,7 @@
         placeholderMessage: "棟名や講義室を検索",
         notFoundMessage: "に一致する講義室はありません。",
         notFoundHint: "英数字は半角で入力してください。",
-        pointGeometryZoomLevel: 5,
+        pointGeometryZoomLevel: 0,
       };
       $("#searchContainer").GeoJsonAutocomplete(options);
       ///GeoJSON
@@ -77,9 +78,6 @@
         console.log("lat: " + lat + ", lng: " + lng);
       }
 
-      function dev_initPlace() {
-        map.setView(L.latLng(-120.75, 256/2), 3);
-      }
     </script>
 
   </div>
