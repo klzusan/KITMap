@@ -175,8 +175,8 @@
 
     .autocomplete-searchBox {
         width: 600px;
-        height: 140px;
-        transform: translateY(4px);
+        height: 100px;
+        transform: translateY(20px);
         border: none;
         margin-left: 40px;
         font-size: 48px;
@@ -209,7 +209,7 @@
         width: 96px;
         height: 96px;
         border: none;
-        transform: translateY(-7px);
+        transform: translateY(5px);
         outline: none;
         margin-left: 10px;
         vertical-align: middle;
