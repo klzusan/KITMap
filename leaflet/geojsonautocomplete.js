@@ -44,7 +44,7 @@
         $(this).each(function () {
             var element = $(this);
             element.addClass("autocomplete-searchContainer");
-            element.append('<input id="searchBox" class="autocomplete-searchBox" placeholder="' + options.placeholderMessage + '"/>');
+            element.append('<input id="searchBox" class="autocomplete-searchBox" placeholder="' + options.placeholderMessage + '" />');
             element.append('<input id="searchButton" class="autocomplete-searchButton" type="submit" value="" title="' + options.searchButtonTitle + '"/>');
             element.append('<span class="autocomplete-divider"></span>');
             element.append('<input id="clearButton" class="autocomplete-clearButton" type="submit"  value="" title="' + options.clearButtonTitle + '">');
@@ -383,7 +383,7 @@
         map.addLayer(searchLayer);
 
         if (features[index].geometry.type === "Point" && options.pointGeometryZoomLevel !== -1) {
-            map.setView([features[index].geometry.coordinates[1] + 10, features[index].geometry.coordinates[0]], options.pointGeometryZoomLevel);
+            map.setView([features[index].geometry.coordinates[1] + 300, features[index].geometry.coordinates[0]], options.pointGeometryZoomLevel);
         }
         else {
             map.fitBounds(searchLayer.getBounds());
