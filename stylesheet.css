@@ -1,10 +1,14 @@
+
+
 header {
     position: fixed;
     right: 10px;
-    bottom: 20px;
+    bottom: 50px;
     z-index: 10;
     pointer-events: none;
 }
+
+
 
 #map {
     position: fixed;
@@ -34,6 +38,7 @@ header {
     bottom: 0px;
     z-index: 900;
     font-size: large;
+    text-align: right;
 }
 
 #credit p{
